@@ -1,0 +1,9 @@
+Spring Instructor Notes:
+
+Note that the use of a @Required annotation on a setter can be used to make setters required dependencies.
+
+If you use predominantly constructor injection, it is possible to create an unresolvable circular dependency scenario. the Spring IoC container detects this circular reference at runtime, and throws a BeanCurrentlyInCreationException. 
+
+Spring sets properties and resolves dependencies as late as possible
+
+
