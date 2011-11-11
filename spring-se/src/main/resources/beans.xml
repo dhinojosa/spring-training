@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <bean id="memberFilter" class="com.evolutionnext.MemberFilter">
+        <property name="members">
+            <list>
+                <bean class="com.evolutionnext.Member">
+                    <constructor-arg index="0" value="Ray"/>
+                    <constructor-arg index="1" value="Lewis"/>
+                </bean>
+                <bean class="com.evolutionnext.Member">
+                    <constructor-arg index="0" value="Ray"/>
+                    <constructor-arg index="1" value="Rice"/>
+                </bean>
+                <bean class="com.evolutionnext.Member">
+                    <constructor-arg index="0" value="Tony"/>
+                    <constructor-arg index="1" value="Romo"/>
+                </bean>
+                <bean class="com.evolutionnext.Member">
+                    <constructor-arg index="0" value="Jason"/>
+                    <constructor-arg index="1" value="Witten"/>
+                </bean>
+                <bean class="com.evolutionnext.Member">
+                    <constructor-arg index="0" value="Phillip"/>
+                    <constructor-arg index="1" value="Rivers"/>
+                </bean>
+            </list>
+        </property>
+    </bean>
+</beans>
