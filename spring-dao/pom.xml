@@ -12,16 +12,19 @@
             </snapshots>
         </repository>
     </repositories>
+
     <parent>
         <artifactId>spring-training</artifactId>
         <groupId>com.evolutionnext</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
     <groupId>com.evolutionnext</groupId>
-    <artifactId>spring-se</artifactId>
+    <artifactId>spring-dao</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>spring-se</name>
+    <name>spring-dao</name>
     <url>http://maven.apache.org</url>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>3.0.6.RELEASE</spring.version>
