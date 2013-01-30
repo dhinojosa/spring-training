@@ -44,5 +44,4 @@
             /WEB-INF/jukebox-servlet.xml
         </param-value>
     </context-param>
-
 </web-app>

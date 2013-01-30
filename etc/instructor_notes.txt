@@ -6,4 +6,10 @@ If you use predominantly constructor injection, it is possible to create an unre
 
 Spring sets properties and resolves dependencies as late as possible
 
+The idref element is simply an error-proof way to pass the id (string value - not a reference) of another
+bean in the container to a <constructor-arg/> or <property/> element.
+
+The ref element is the final element inside a <constructor-arg/> or <property/> definition
+
+
 

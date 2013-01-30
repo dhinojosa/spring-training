@@ -94,7 +94,6 @@
             <version>2.2.4</version>
         </dependency>
     </dependencies>
-
     <modules>
         <module>spring-se</module>
         <module>spring-dao</module>
