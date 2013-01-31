@@ -9,6 +9,6 @@ public class MainRunner {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext(new String[]{"beans.xml"});
         MemberFilter memberFilter = context.getBean("memberFilter", MemberFilter.class);
-        System.out.println(">>>" + memberFilter.getMembersFilteredByFirstName("Ray"));
+        System.out.println(memberFilter.getMembersFilteredByFirstName("Ray"));
     }
 }
